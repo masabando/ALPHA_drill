@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>関数電卓 ドリル</title>
+  <meta charset="utf-8">
+  <meta name="description" content="2, 10, 16">
+  <meta name="author" content="Masamitsu Bando">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <meta name="viewport" content="width=400px, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"> -->
+  <link rel="stylesheet" href="style.css">
+  <script src="MathJax-2.7.2/MathJax.js?config=TeX-MML-AM_CHTML,local/local"></script>
+  <script src="jquery/jquery-1.11.1.min.js"></script>
+  <script src="alpha_drill.js"></script>
+  <link rel="shortcut icon" href="icon.png">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="icon" href="icon.png">
+</head>
+<body>
+
+  <div id="alpha_drill">
+    <div id="header">関数電卓 ドリル <span id="printnum"></span></div>
+    <div id="headtext">
+      特に指定がない場合、答えが2進数ならば8桁、8進数または16進数ならば2桁で答えよ。<br>
+      10進数で答えが小数の場合は、指定されたもの以外、四捨五入により小数第2位まで求めよ。
+    </div>
+    <div id="question_container">
+      <div id="q_dec"></div>
+      <div id="q_nondec"></div>
+      <div id="q_calctable"></div>
+      <div id="q_radixtable"></div>
+      <div id="q_angletable"></div>
+      <div id="q_memory_m"></div>
+      <div id="q_memory_x"></div>
+    </div>
+    <div id="footer"></div>
+  </div>
+
+</body>
+</html>
+
+
