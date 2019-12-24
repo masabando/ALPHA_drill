@@ -23,7 +23,7 @@ function alpha_drill() {
   var digit_msize = 4;// 4*M < digit_size
   var proc_list = [['+', "+"], ['-', "-"], ['\\times', "*"], ['\\div', "/"]];
   var qnum = {
-    dec: 15,
+    dec: 30,
     decx: 6,
     nondec: 10,
     calctable: 10,
